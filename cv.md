@@ -1,12 +1,12 @@
 # Svetlana Belyaeva
 ## Contact Info
-**Phone:** +79172965787
-**E-mail:** svetlana_akhmetova@mail.ru
-**Telegram:** @svetbela
-**GitHub:** Svetbela
+**Phone:** +79172965787 <br>
+**E-mail:** svetlana_akhmetova@mail.ru <br>
+**Telegram:** @svetbela <br>
+**GitHub:** Svetbela <br>
 **Location:** Russia, Republic of Tatarstan, Kazan
 ## About Me
-I have built a successful career in a bank where I work as an analyst. But in my work I lacked creativity. Therefore, now I am in the process of changing my professional activity. Frontend development fascinates me a lot. I have learned a lot over the past year and continue to learn to this day.
+I have built a successful career in a bank where I work as an analyst. But in my work I lacked creativity, so lost interest in it. Therefore, now I am in the process of changing my professional activity. Frontend development fascinates me a lot. I have learned a lot over the past year and continue to learn until now.
 ## Skills
 * HTML/CSS
 * C (basic)
@@ -41,15 +41,15 @@ button.addEventListener('click', (event) => {
     }
 ``` 
 ## Education
-* Kazan Federal University (2 speciality: state management and accounting, finished at 2010 and 2012)
-+ **Courses**
+* Kazan Federal University (state management, accounting - finished at 2010 and 2012)
+### Courses ###
 * Kazan IT College (Web-development basics, 2021)
-* Innopolis Universitety (Frontend-development basics, 2021)
+* Innopolis University (Frontend-development basics, 2021)
 ## Experience
 * 5 years of financial and risk analysis
 * little experience in development (single-page-application on React) 
 ## Languages
 * Russian (native)
 * English (intermediate)
-+ ###English###
+### English ###
 now studying in Alibra School for an advanced level
