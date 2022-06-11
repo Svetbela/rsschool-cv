@@ -10,13 +10,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .container {
     max-width: 1440px;
     margin: 0 auto;
-
 }
 
 .navigation {
@@ -50,6 +49,7 @@ body {
 .main_section {
     padding: 20px 150px;
     line-height: 25px;
+    font-weight: 400;
 }
 
 /*.image-wrapper {
@@ -67,6 +67,7 @@ body {
 
 .section_title {
     padding: 10px 0;
+    color: darkolivegreen;
 
 }
 
@@ -75,6 +76,10 @@ body {
     justify-content: flex-start;
     align-items: center;
     /*padding: 20px;*/
+}
+
+.portfolio .section_title {
+    color: black;
 }
 
 .introduce {
@@ -106,5 +111,39 @@ body {
 .skill_list-item:before {
     content: '\2713';
     padding-right: 10px;
+}
+
+.footer {
+    padding: 30px 100px 15px;
+}
+
+.footer_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.footer_logo {
+    width: 121px;
+    height: 45px;
+    background-image: url("assets/svg/logo.svg");
+    background-size: contain;
+    background-repeat: no-repeat;;
+}
+
+.devoter {
+    background-color: darkolivegreen;
+    height: 2px;
+}
+
+.footer .devoter
+{
+    margin-bottom: 15px;
+}
+
+.header .devoter {
+    margin-left: 150px;
+    margin-right: 20px;
 }
 
