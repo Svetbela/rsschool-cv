@@ -1,1 +1,76 @@
-CSS
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nav_list {
+    list-style: none;
+}
+
+.link {
+    padding: 0 20px;
+    line-height: 50px;
+}
+
+.main_section {
+    
+}
+
+/*.image-wrapper {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}*/
+
+.avatar {
+    width: 200px;
+   /* height: 200px;*/
+    border-radius: 50%;
+    margin-right: 150px;
+}
+
+.section_title {
+
+}
+
+.portfolio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduce {
+
+}
+
+.introduce .section_title {
+    font-size: 35px;
+}
+
+.introduce .description {
+    font-size: 25px;
+    margin-top: 20px;
+    text-align: center;
+}
+
