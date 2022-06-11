@@ -10,6 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 16px;
 }
 
 .container {
@@ -22,19 +23,33 @@ body {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding: 10px 20px;
 }
 
 .nav_list {
     list-style: none;
+    display: flex;
 }
 
 .link {
     padding: 0 20px;
     line-height: 50px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.link:hover {
+    color: #5a5959; 
+    text-decoration: underline; 
+}
+
+.link:visited {
+    color: darkolivegreen; 
 }
 
 .main_section {
-    
+    padding: 20px 150px;
+    line-height: 25px;
 }
 
 /*.image-wrapper {
@@ -45,19 +60,21 @@ body {
 
 .avatar {
     width: 200px;
-   /* height: 200px;*/
+   /*height: 200px;*/
     border-radius: 50%;
-    margin-right: 150px;
+    margin-right: 100px;
 }
 
 .section_title {
+    padding: 10px 0;
 
 }
 
 .portfolio {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    /*padding: 20px;*/
 }
 
 .introduce {
@@ -69,8 +86,25 @@ body {
 }
 
 .introduce .description {
-    font-size: 25px;
+    font-size: 20px;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
+}
+
+.contact_list {
+    list-style: none;
+}
+
+.skill_list {
+    list-style: none;
+}
+
+.skill_list-item {
+   /* padding-left: 10px;*/
+}
+
+.skill_list-item:before {
+    content: '\2713';
+    padding-right: 10px;
 }
 
