@@ -16,6 +16,7 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
+    padding: 0 100px;
 }
 
 .navigation {
@@ -36,32 +37,51 @@ body {
     text-decoration: none;
     font-size: 16px;
     color: black;
+    cursor: pointer;
+
 }
 
 .link:hover {
-    color: #5a5959; 
+    color: #9c9c9c; 
     text-decoration: underline; 
+    transition: .2s;
 }
 
 .link:visited {
     color: darkolivegreen; 
 }
 
-.main_section {
-    padding: 20px 150px;
-    line-height: 25px;
+.main_wrapper {
+    display: flex;
+    }
+    
+aside {
+    flex: 1;
+}
+
+aside .main_section {
+    line-height: 30px;
+}
+
+.main_content {
+    flex: 2;
+}
+
+.main_section {    
+    line-height: 30px;
     font-weight: 400;
 }
 
-/*.image-wrapper {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-}*/
+h2 {
+    margin-top: 25px;
+}
+
+.portfolio {
+    padding: 20px 0;
+}
 
 .avatar {
     width: 200px;
-   /*height: 200px;*/
     border-radius: 50%;
     margin-right: 100px;
 }
@@ -69,22 +89,17 @@ body {
 .section_title {
     padding: 10px 0;
     color: darkolivegreen;
-
+    font-weight: 400;
 }
 
 .portfolio {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /*padding: 20px;*/
 }
 
 .portfolio .section_title {
     color: black;
-}
-
-.introduce {
-
 }
 
 .introduce .section_title {
@@ -93,7 +108,7 @@ body {
 
 .introduce .description {
     font-size: 20px;
-    margin-top: 20px;
+    margin-top: 15px;
     text-align: left;
 }
 
@@ -101,28 +116,56 @@ body {
     list-style: none;
 }
 
-.skill_list {
+.skill_list, .edu-list, 
+.exp-list, .lang-list {
     list-style: none;
-}
-
-.skill_list-item {
-   /* padding-left: 10px;*/
 }
 
 .skill_list-item:before {
     content: '\2713';
+    color: darkolivegreen;
     padding-right: 10px;
 }
 
+.edu-list_item:before {
+    content: '\25CB';
+    color: darkolivegreen;
+    padding-right: 10px;
+}
+
+.exp-list_item:before {
+    content: '\2713';
+    color: darkolivegreen;
+    padding-right: 10px;
+}
+
+.lang-list_item:before {
+    content: '\25CB';
+    color: darkolivegreen;
+    padding-right: 10px;
+}
+
+.main_section .link {
+    padding: 0;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+h3 {
+    margin-top: 10px;
+    font-weight: 500;
+}
+
 .footer {
-    padding: 30px 100px 15px;
+    padding: 30px 0 15px 0;
+    color: darkolivegreen;
 }
 
 .footer_wrapper {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .footer_logo {
@@ -144,7 +187,10 @@ body {
 }
 
 .header .devoter {
-    margin-left: 150px;
+    margin-left: 300px;
     margin-right: 20px;
 }
 
+.footer span {
+    margin-top: 10px;
+}
