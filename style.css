@@ -37,11 +37,14 @@ body {
     text-decoration: none;
     font-size: 16px;
     color: black;
+    cursor: pointer;
+
 }
 
 .link:hover {
-    color: #5a5959; 
+    color: #9c9c9c; 
     text-decoration: underline; 
+    transition: .2s;
 }
 
 .link:visited {
@@ -62,11 +65,10 @@ aside .main_section {
 
 .main_content {
     flex: 2;
-    /*padding-left: 20px;*/
 }
 
 .main_section {    
-    line-height: 25px;
+    line-height: 30px;
     font-weight: 400;
 }
 
@@ -94,7 +96,6 @@ h2 {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    /*padding: 20px;*/
 }
 
 .portfolio .section_title {
@@ -115,7 +116,8 @@ h2 {
     list-style: none;
 }
 
-.skill_list {
+.skill_list, .edu-list, 
+.exp-list, .lang-list {
     list-style: none;
 }
 
@@ -125,14 +127,28 @@ h2 {
     padding-right: 10px;
 }
 
-.edu-list {
-    list-style: none;
-}
-
 .edu-list_item:before {
     content: '\25CB';
     color: darkolivegreen;
     padding-right: 10px;
+}
+
+.exp-list_item:before {
+    content: '\2713';
+    color: darkolivegreen;
+    padding-right: 10px;
+}
+
+.lang-list_item:before {
+    content: '\25CB';
+    color: darkolivegreen;
+    padding-right: 10px;
+}
+
+.main_section .link {
+    padding: 0;
+    line-height: 30px;
+    font-size: 17px;
 }
 
 h3 {
@@ -178,4 +194,3 @@ h3 {
 .footer span {
     margin-top: 10px;
 }
-
