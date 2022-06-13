@@ -105,6 +105,25 @@
                             <li class="exp-list_item"><a class="link" href="https://github.com/Svetbela/Frontend">Single-page-application</a> on React (restaurant menu with the ability to add and remove from the basket and with the calculation of the total amount of selected items)</li>
                         </ul>
                         <h3>Code example:</h3>
+                        <pre>
+                            <code>
+                                button.addEventListener('click', (event) => {
+                                    event.preventDefault();
+                                    if (email.value === '') {
+                                        email.style.border = '2px solid #CB2424';
+                                        emailMistake.style.display = 'block';
+                                    } else if (!validateEmail(email.value)) {
+                                        email.style.border = '2px solid #CB2424';
+                                        emailMistake.style.display = 'block';
+                                        emailMistake.innerHTML = 'Email невалидный';
+                                    }
+                                    else {
+                                        emailMistake.style.display = 'none';
+                                        email.style.border = '2px solid #787878';
+                                        user.email = email.value;
+                                    }
+                            </code>
+                        </pre>
                     </section>
         
                     <section class="main_section">
