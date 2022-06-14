@@ -194,3 +194,39 @@ h3 {
 .footer span {
     margin-top: 10px;
 }
+
+@media screen and (max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+    
+    .navigation {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 10px 0;
+    }
+
+    .container {
+        max-width: 100vw;
+        padding: 0 5vw;
+    }
+
+    .link {
+        padding: 0 10px;
+        font-size: 10px;
+    }
+
+    .footer_logo {
+        width: 61px;
+        height: 25px;
+    }
+
+    .footer_wrapper {
+        font-size: 12px;
+    }
+
+    .main_section .link {
+        line-height: 15px;
+        font-size: 12px;
+    }
+}
