@@ -212,7 +212,7 @@ h3 {
     }
 
     .link {
-        padding: 0 10px;
+        padding: 0 5px;
         font-size: 10px;
     }
 
@@ -252,6 +252,10 @@ h3 {
     }
 
     .introduce .description {
+        text-align: center;
+    }
+
+    .introduce .section_title {
         text-align: center;
     }
 }
