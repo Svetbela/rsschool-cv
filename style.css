@@ -195,7 +195,7 @@ h3 {
     margin-top: 10px;
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 767px) {
     body {
         font-size: 12px;
     }
@@ -219,5 +219,14 @@ h3 {
     .footer_logo {
         width: 61px;
         height: 25px;
+    }
+
+    .footer_wrapper {
+        font-size: 12px;
+    }
+
+    .main_section .link {
+        line-height: 15px;
+        font-size: 12px;
     }
 }
