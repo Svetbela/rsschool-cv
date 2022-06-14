@@ -53,7 +53,7 @@ body {
 
 .main_wrapper {
     display: flex;
-    }
+}
     
 aside {
     flex: 1;
@@ -228,5 +228,30 @@ h3 {
     .main_section .link {
         line-height: 15px;
         font-size: 12px;
+    }
+
+    .main_wrapper {
+        display: inline;
+    }
+
+    .avatar {
+        margin-right: 30px;
+    }
+
+    .header .devoter {
+        margin-left: 0;
+    }
+
+    .footer .devoter {
+    margin-bottom: 5px;
+    }
+
+    .portfolio {
+       display: flex;
+       flex-direction: column;
+    }
+
+    .introduce .description {
+        text-align: center;
     }
 }
