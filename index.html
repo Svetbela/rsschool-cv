@@ -88,13 +88,14 @@
                         <h2 class="section_title" id="education">Education</h2>
                         <span>Kazan Federal University</span> 
                         <ul class="edu-list">
-                            <li class="edu-list_item">State management (completed in 2010)</li>
-                            <li class="edu-list_item">Accounting and analysys (completed in 2012)</li>
+                            <li class="edu-list_item">State management (graduated in 2010)</li>
+                            <li class="edu-list_item">Accounting and analysys (graduated in 2012)</li>
                         </ul>
                         <h3>Courses</h3>
                         <ul class="edu-list">
                             <li class="edu-list_item">Kazan IT College (Web-development basics, 2021)</li>
                             <li class="edu-list_item">Innopolis University (Frontend-development basics, 2021)</li>
+                            <li class="edu-list_item">The Rolling Scopes (RS School), JS/FE Pre-School (2022)</li>                            
                         </ul>
                     </section>
         
@@ -107,21 +108,9 @@
                         <h3>Code example:</h3>
                         <pre>
                             <code>
-                                button.addEventListener('click', (event) => {
-                                    event.preventDefault();
-                                    if (email.value === '') {
-                                        email.style.border = '2px solid #CB2424';
-                                        emailMistake.style.display = 'block';
-                                    } else if (!validateEmail(email.value)) {
-                                        email.style.border = '2px solid #CB2424';
-                                        emailMistake.style.display = 'block';
-                                        emailMistake.innerHTML = 'Email невалидный';
-                                    }
-                                    else {
-                                        emailMistake.style.display = 'none';
-                                        email.style.border = '2px solid #787878';
-                                        user.email = email.value;
-                                    }
+                                module.exports = function reverse (n) {
+                                    return Math.abs(n).toString().split('').reverse().join('');
+                                }
                             </code>
                         </pre>
                     </section>
@@ -130,7 +119,7 @@
                         <h2 class="section_title" id="language">Languages</h2>
                         <ul class="lang-list">
                             <li class="lang-list_item">Russian (native)</li>
-                            <li class="lang-list_item">English (intermediate) - now studying in Alibra School (Master) for an advanced level</li>
+                            <li class="lang-list_item">English (intermediate) - now studying in Alibra School for an advanced level</li>
                         </ul> 
                     </section>
                 </div> 
